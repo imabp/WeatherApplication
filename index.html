@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Check Weather</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container my-5 mx-auto">
+
+    <h1 class="text-muted text-center my-4">Check Weather</h1>
+
+    <form class="change-location my-4 text-center text-muted">
+      <label for="city">Enter a location for weather information</label>
+      <input type="text" name="city" class="from-control d-block w-100 p-2">
+    </form>
+
+    <div class="card shadow-lg rounded d-none">
+      <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+      <div class="icon bg-light mx-auto text-center">
+        <img src="" alt="">
+      </div>
+      <div class="text-muted text-uppercase text-center details">
+        <h5 class="my-3">City name</h5>
+        <div class="my-3">Weather condition</div>
+        <div class="display-4 my-4">
+          <span>temp</span>
+          <span>&deg;C</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./scripts/forecast.js"></script>
+  <script src="./scripts/app.js"></script>
+</body>
+
+</html>
