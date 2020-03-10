@@ -1,4 +1,4 @@
-# WeatherApplication
+# WeatherApplication [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/abir.pal899@gmail.com)
 Weather application that tells you temperature and weather of a city.
 
 ## Tools Used:
